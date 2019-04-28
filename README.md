@@ -4,11 +4,11 @@ Build your Web radio for streaming on Resberry Pi (Bannan PI) in simple step by 
  
 ## Description
 
-Building your own radio is much fun than buying one. Using Raberry PI (Banana PI) can be interesting also for kids to understand basic of hardware and programming. 
+Building your own radio is fun than buying one. Using Raberry PI (Banana PI) can be interesting  for kids to understand basic of hardware and software. 
 
 ## Hardware setup
 
-The result may look like thi pictur, but feel free to use  your creativity
+The result may look like these pictures, but feel free to use  your creativity
 
 ![Front](./sources/pics/front.jpg)
 ![Side](./sources/pics/side.jpg)
@@ -18,19 +18,26 @@ The result may look like thi pictur, but feel free to use  your creativity
 ### Materials
 - You need two push button, like for example ![Button1](https://www.amazon.de/RUNCCI-spst-drucktastenschalter-momentary-Verriegelung-drucktastenschalter/dp/B07N1N1T7R/) or![Button](https://www.conrad.de/de/p/tru-components-tc-mt312bl-drucktaster-tastend-1-st-1589485.html) 
 - Jumper wires with connectors for the Rasberry PI 
-- Wooden board 
+- Wooden board for the front. It must be nice one, lile using wine wooden box
 - Corks for side decoration
 - Rasberry PI, OS on SD Card, HDMI, power and LAN cable  
 
 ### Steps
 
-- 
+- Make two holes on the board
+- Set up the push buttons
+- Wire (solder) the two busch buttons to GPIO 23 and 24 and Ground 
+![Wireing](./sources/pics/wire.jpg)
+- Glue the corks onside but leave place for the cables
+- Glue the Rasberry PI (Banana PI) 
+- Wire with HDMI, Ethernet and Power
 
 ## Software setup 
 
 I have used Bananna PI with Ubuntu Server, but it will work in the same way in all Rasberry PIs. Depending on the OS you may have slight differences
 
-- Install MPD 
+- OS set up on the SD card  *stap dow are for Ubuntu*  
+- **Install** ![Music Player Daemon](https://www.musicpd.org/) (MPD) and alsa-utils  
 ```
 sudo apt-get install mpc mpd alsa-utils
 ```
