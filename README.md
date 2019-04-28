@@ -18,7 +18,7 @@ The result may look like these pictures, but feel free to use  your creativity
 ### Materials
 - You need two push button, like for example ![Button1](https://www.amazon.de/RUNCCI-spst-drucktastenschalter-momentary-Verriegelung-drucktastenschalter/dp/B07N1N1T7R/) or![Button](https://www.conrad.de/de/p/tru-components-tc-mt312bl-drucktaster-tastend-1-st-1589485.html) 
 - Jumper wires with connectors for the Rasberry PI 
-- Wooden board for the front. It must be nice one, lile using wine wooden box
+- Wooden board for the front. It must be nice one, like using wine wooden box
 - Corks for side decoration
 - Rasberry PI, OS on SD Card, HDMI, power and LAN cable  
 
@@ -42,9 +42,9 @@ I have used Bananna PI with Ubuntu Server, but it will work in the same way in a
 sudo apt-get install mpc mpd alsa-utils
 ```
 - **Create your Playlist** or use example in *./sources/radio.m3u*
-- **Playlist install** Copy the playlist file in  */var/lib/mpd/playlists/radio.m3u* on your Rasberry
-- **HDMI Output** If you want to use HDMI audio output, then copy file *./sources/asound.conf* to */etc/asound.conf*.Otherwise you will use the analog output. I recommend HDMI since provides better sound quality
-- **Conrol programm** Copy *./sources/webradio_control.py* to */home/pi/webradio_control.py* on your RPI (Rasberry PI) 
-- **Create Service** Copy *./sources/init-radio.service* to */etc/systemd/system/init-radio.service* on your PRI  
+- **Playlist install** Copy the playlist file in  ![radio.m3u](/var/lib/mpd/playlists/radio.m3u) on your Rasberry
+- **HDMI Output** If you want to use HDMI audio output, then copy file ![asound.conf](./sources/asound.conf) to */etc/asound.conf*.Otherwise you will use the analog output. I recommend HDMI since provides better sound quality
+- **Conrol programm** Copy ![webradio_control.py](./sources/webradio_control.py) to */home/pi/webradio_control.py* on your RPI (Rasberry PI) 
+- **Create Service** Copy ![init-radio.service](./sources/init-radio.service) to */etc/systemd/system/init-radio.service* on your PRI  
 - **Init the service** to start on boot with `service init-radio enable`. You can manage it with  `service init-radio start|stop|status`
 
