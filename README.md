@@ -1,8 +1,30 @@
-# Web Radio for Rasberry PI or similar
+# Web Radio for Rasberry PI
 
+Build your Web radio for streaming on Resberry Pi (Bannan PI) in simple step by step manual. 
+ 
 ## Description
 
+Building your own radio is much fun than buying one. Using Raberry PI (Banana PI) can be interesting also for kids to understand basic of hardware and programming. 
+
 ## Hardware setup
+
+The result may look like thi pictur, but feel free to use  your creativity
+
+![Front](./sources/pics/front.jpg)
+![Side](./sources/pics/side.jpg)
+![Back](./sources/pics/back.jpg)
+
+
+### Materials
+- You need two push button, like for example ![Button1](https://www.amazon.de/RUNCCI-spst-drucktastenschalter-momentary-Verriegelung-drucktastenschalter/dp/B07N1N1T7R/) or![Button](https://www.conrad.de/de/p/tru-components-tc-mt312bl-drucktaster-tastend-1-st-1589485.html) 
+- Jumper wires with connectors for the Rasberry PI 
+- Wooden board 
+- Corks for side decoration
+- Rasberry PI, OS on SD Card, HDMI, power and LAN cable  
+
+### Steps
+
+- 
 
 ## Software setup 
 
