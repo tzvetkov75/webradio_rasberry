@@ -1,0 +1,8 @@
+[Unit]
+Description=Simple WebRadio service
+
+[Service]
+ExecStart=/home/pi/webradio_control.py
+
+[Install]
+WantedBy=multi-user.target
