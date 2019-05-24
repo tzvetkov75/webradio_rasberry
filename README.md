@@ -16,21 +16,26 @@ The result may look like these pictures, but feel free to use  your creativity
 
 
 ### Materials
-- You need two push button, like for example ![Button1](https://www.amazon.de/RUNCCI-spst-drucktastenschalter-momentary-Verriegelung-drucktastenschalter/dp/B07N1N1T7R/) or![Button](https://www.conrad.de/de/p/tru-components-tc-mt312bl-drucktaster-tastend-1-st-1589485.html) 
+- You need two push button, like for example ![Button](https://www.amazon.de/RUNCCI-spst-drucktastenschalter-momentary-Verriegelung-drucktastenschalter/dp/B07N1N1T7R/) or![Button](https://www.conrad.de/de/p/tru-components-tc-mt312bl-drucktaster-tastend-1-st-1589485.html) 
 - Jumper wires with connectors for the Rasberry PI 
 - Wooden board for the front. It must be nice one, like using wine wooden box
-- Corks for side decoration
+- Corks for side decoration (optional)
 - Rasberry PI, OS on SD Card, HDMI, power and LAN cable  
 
 ### Steps
 
-- Make two holes on the board
-- Set up the push buttons
+- Make two holes on the board for the buttons
+- Set up the push buttons in the holes
 - Wire (solder) the two busch buttons to GPIO 23 and 24 and Ground 
 ![Wireing](./sources/pics/wire.jpg)
 - Glue the corks onside but leave place for the cables
 - Glue the Rasberry PI (Banana PI) 
 - Wire with HDMI, Ethernet and Power
+
+## Usage
+ - Press the two buttons to start and stop the radio
+ - Button 1 for changing the station upwards from one in the list 
+ - Button 2 for changing the station downwards in the list    
 
 ## Software setup 
 
